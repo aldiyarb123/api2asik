@@ -1,0 +1,92 @@
+/* Общие настройки страницы */
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    min-height: 100vh;
+  }
+  
+  /* Контейнер для всего контента */
+  .container {
+    width: 900px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+  }
+  
+  /* Кнопка */
+  button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #667eea;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #5563d6;
+  }
+  
+  /* Профиль пользователя */
+  .profile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Секции */
+  .section {
+    margin-top: 25px;
+  }
+  
+  /* Карточки для страны, курса и новостей */
+  .card {
+    background: #f4f6fb;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  }
+  
+  /* Новости */
+  .news-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .news-card h4 {
+    margin: 5px 0;
+  }
+  
+  .news-card p {
+    margin: 5px 0 10px;
+  }
+  
+  .news-card a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .news-card a:hover {
+    text-decoration: underline;
+  }
